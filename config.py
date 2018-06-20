@@ -1,12 +1,12 @@
 # coding: utf8
 import os
 
-THIS_DIR = os.path.dirname(__file__)
+#THIS_DIR = os.path.dirname(__file__)
 
 
 class BEGANConfig:
     def __init__(self):
-        self.project_dir = '%s' % THIS_DIR
+        self.project_dir = '.'
         self.resource_dir = '%s/resource' % self.project_dir
         self.dataset_dir = self.resource_dir
         self.generated_dir = "%s/generated" % self.project_dir
